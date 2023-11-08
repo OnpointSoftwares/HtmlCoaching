@@ -1,0 +1,33 @@
+<!DOCTYPE Html>
+<html>
+    <head>
+        <title>OUr first html page</title>
+        <style>
+            body{
+                background-color: aqua;
+                font-size: 30px;
+                font-style: italic;
+                font-weight: bold;
+            }
+            #marital{
+                color:brown;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <p><b>We are starting to master html</b></p>
+        <form action="" method="POST">
+            <label>Username:</label><input type="text" name="username" placeholder="Enter username" id="txtUsername"><br>
+            <label>Gender</label>
+            <select name="gender">
+                <option>Male</option>
+                <option>Female</option>
+            </select><br>
+            <label id="marital">Marital Status:</label><br><input type="radio" name="maritalStatus" value="single">Single
+            <input type="radio" name="maritalStatus" value="married">Married
+            <input type="radio" name="maritalStatus" value="divorced">Divorced <br>
+            <input type="submit" value="save">
+        </form>
+    </body>
+</html>
